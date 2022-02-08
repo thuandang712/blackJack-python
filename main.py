@@ -1,5 +1,7 @@
 ############### Blackjack Project #####################
 
+######## Thuan Dang - Brittney Carr -- Christopher Hartmann ##########
+
 ############### Our Blackjack House Rules #####################
 
 # The deck is unlimited in size.
@@ -11,6 +13,9 @@
 # The cards in the list have equal probability of being drawn.
 # Cards are not removed from the deck as they are drawn.
 # The computer is the dealer.
+
+
+####### Chris #######
 
 import random
 from art import logo
@@ -57,6 +62,8 @@ def compare(user_score, computer_score):
     else:
         return "YOU LOSE!"
 
+
+####### Brittney #######
 
 # Create a play_game() function to automate and repeat the game if user wants to continue to play
 def play_game():
